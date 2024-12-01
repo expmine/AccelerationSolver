@@ -36,4 +36,4 @@ The results indicate a substantial difference in performance between the C and A
 ### Screenshot
 A screenshot of the program output, showing the comparison of results between the C and Assembly implementations, is provided below to verify the correctness of the outputs.
 
-![Screenshot](testresult.png)
+![Screenshot](testresult1.png)
