@@ -34,9 +34,12 @@ void compute_acceleration_asm(double* input_matrix, int* output, int rows) {
 
 void generate_random_input(double* input_matrix, int rows) {
     for (int i = 0; i < rows; i++) {
-        input_matrix[i * 3] = (double)(rand() % 101); // Vi: 0 to 100 km/h
-        input_matrix[i * 3 + 1] = input_matrix[i * 3] + (double)(rand() % (101)); // Vf: Vi to Vi + 100 km/h
-        input_matrix[i * 3 + 2] = 5 + (double)(rand() % 20); // T: 5 to 25 seconds
+        input_matrix[i * 3] = (rand() / (double)RAND_MAX) * 100.0;
+
+        double Vi = input_matrix[i * 3];
+        input_matrix[i * 3 + 1] = Vi + ((rand() / (double)RAND_MAX) * 100.0);
+
+        input_matrix[i * 3 + 2] = 5 + ((rand() / (double)RAND_MAX) * 20.0);
     }
 }
 
