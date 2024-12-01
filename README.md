@@ -1,5 +1,5 @@
 # AccelerationSolver
-This project calculates acceleration from velocity data (initial velocity Vi, final velocity Vf, and time T) using both C and x86-64 Assembly implementations. The program compares the performance of the two implementations, demonstrating the significant difference in execution time.
+This project calculates acceleration from velocity data (initial velocity $V_i$, final velocity $V_f$, and time $T$) using both C and x86-64 Assembly implementations. The program compares the performance of the two implementations, demonstrating the significant difference in execution time.
 
 ## Random Number Generation Range
 The input values are generated using the following ranges:
@@ -30,8 +30,6 @@ The input size of 100,000,000 rows was used to observe a significant performance
 
 ## Performance Analysis
 The results indicate a substantial difference in performance between the C and Assembly implementations. The C implementation takes an average of **3069 ms**, while the Assembly implementation completes in **216.9 ms** on average. This demonstrates that the Assembly version is significantly more efficient, providing a faster execution time by approximately **14 times** compared to the C implementation.
-
-The faster execution time of the Assembly function is due to its low-level nature, allowing for optimizations not possible in higher-level C. The reduced overhead and direct control over CPU instructions contribute to the performance gains.
 
 ## Program Output and Correctness Check
 
