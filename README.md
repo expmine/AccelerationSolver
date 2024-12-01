@@ -43,4 +43,5 @@ A screenshot of the program output, showing the comparison of results between th
 
 Members:
 Gan, Austin
+
 Veracruz, Sean
