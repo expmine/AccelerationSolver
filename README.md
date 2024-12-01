@@ -3,9 +3,11 @@ This project calculates acceleration from velocity data (initial velocity Vi, fi
 
 ## Random Number Generation Range
 The input values are generated using the following ranges:
-- **Initial velocity (\(V_i\))**: 0 to 100 km/h
-- **Final velocity (\(V_f\))**: \(V_i\) to \(V_i + 100\) km/h
-- **Time (\(T\))**: 5 to 25 seconds
+
+- **Initial velocity** ($V_i$): 0 to 100 km/h
+- **Final velocity** ($V_f$): $V_i$ to $V_i + 100$ km/h
+- **Time** ($T$): 5 to 25 seconds
+
 
 ## PC Specifications
 The program was executed on the following system configuration:
