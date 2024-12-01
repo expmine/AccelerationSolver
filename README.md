@@ -38,6 +38,9 @@ A screenshot of the program output, showing the comparison of results between th
 
 ![Screenshot](testresult1.png)
 
+### Video
+[here](https://github.com/expmine/AccelerationSolver/blob/master/%5BMP2_LBYARCH_S12%5DGan_Veracruz.mp4)
+
 Members:
 Gan, Austin
 Veracruz, Sean
