@@ -1,5 +1,5 @@
 # AccelerationSolver
-This project calculates acceleration from velocity data (initial velocity $V_i$, final velocity $V_f$, and time $T$) using both C and x86-64 Assembly implementations. The program compares the performance of the two implementations, demonstrating the significant difference in execution time.
+This project calculates acceleration using both C and x86-64 Assembly implementations. The program compares the performance of the two implementations, demonstrating the significant difference in execution time.
 
 ## Random Number Generation Range
 The input values are generated using the following ranges:
